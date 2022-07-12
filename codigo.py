@@ -13,7 +13,7 @@ tam_hem = len(ds_hem)
 data_hem = np.zeros((tam_hem, len(theta)))
 hem_feature = []
 
-for i in range(0, tam_hem):
+for i in range(15):
     df = pd.read_csv(filepath_hematita + ds_hem[i], sep=';')
 
     for j in range(len(df['2-THETA'])):
